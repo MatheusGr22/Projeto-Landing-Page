@@ -59,28 +59,29 @@
 #divcards{
     display: grid;
     grid-auto-flow: column;
-    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 .cards{
-    margin-left: 50px;
+    margin-left: 0px;
 }
 #setaesquerda{
     display: none;
-    margin-top: 70px;
 }
 #bruna{
     display: none;
 }
-#setadireita{
-    margin-top: 55px;
-}
+
 .seta{
     cursor: pointer;
+    margin: -35px;
 }
 .seta:hover{
-    transform:translateY(-7px);
+    transform:translateY(-15px);
     transition-duration: 0.5s;
 }
+
 #formulario{
     text-align: center;
 
